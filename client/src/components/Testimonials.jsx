@@ -21,10 +21,15 @@ const Testimonials = () => {
             key={index}
           >
             <div className="flex flex-col items-center">
-              <img
+              {/* <img
                 src={testimonial.image}
                 alt=""
                 className="rounded-full w-14"
+              /> */}
+              <img
+                src={testimonial.image}
+                alt=""
+                className="w-20 h-20 object-cover rounded-full border-2 border-gray-300 shadow-sm"
               />
               <h2 className="text-xl font-semibold mt-3">{testimonial.name}</h2>
               <p className="text-gray-500 mb-4">{testimonial.role}</p>

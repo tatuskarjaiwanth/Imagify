@@ -18,6 +18,9 @@ import cross_icon from "./cross_icon.svg";
 import star_group from "./star_group.png";
 import credit_star from "./credit_star.svg";
 import profile_icon from "./profile_icon.png";
+import jaiwanth from "./jaiwanth.jpg";
+import sumitra from "./sumitra.jpg";
+import anushree from "./anushree.jpg";
 
 export const assets = {
   logo,
@@ -58,27 +61,51 @@ export const stepsData = [
   },
 ];
 
+// export const testimonialsData = [
+//   {
+//     image: profile_img_1,
+//     name: "Donald Jackman",
+//     role: "Graphic Designer",
+//     stars: 5,
+//     text: `I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`,
+//   },
+//   {
+//     image: profile_img_2,
+//     name: "Richard Nelson",
+//     role: "Content Creator",
+//     stars: 4,
+//     text: `I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`,
+//   },
+//   {
+//     image: profile_img_1,
+//     name: "Donald Jackman",
+//     role: " Graphic Designer",
+//     stars: 5,
+//     text: `I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`,
+//   },
+// ];
+
 export const testimonialsData = [
   {
-    image: profile_img_1,
-    name: "Donald Jackman",
-    role: "Graphic Designer",
+    image: jaiwanth,
+    name: "Jaiwanh",
+    role: "Marketing Specialist",
     stars: 5,
-    text: `I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`,
+    text: `Imagify has completely transformed how I create visual content for ad campaigns. The AI image quality is stunning, and it's saved me hours every week.`,
   },
   {
-    image: profile_img_2,
-    name: "Richard Nelson",
-    role: "Content Creator",
+    image: sumitra,
+    name: "Sumitra",
+    role: "UI/UX Designer",
     stars: 4,
-    text: `I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`,
+    text: `I use Imagify to quickly visualize concepts for my design projects. It's fast, creative, and incredibly helpful for early-stage ideation. Yeah its so smooth to use and affordable `,
   },
   {
-    image: profile_img_1,
-    name: "Donald Jackman",
-    role: " Graphic Designer",
+    image: anushree,
+    name: "Anushree",
+    role: "Freelance Illustrator",
     stars: 5,
-    text: `I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`,
+    text: `This tool is like having a creative assistant. I just type in my idea and it gives me a great starting point for my artwork. Highly recommended!`,
   },
 ];
 

@@ -10,9 +10,20 @@ const Footer = () => {
       </p>
 
       <div className="flex gap-2.5">
-        <img src={assets.facebook_icon} alt="" width={35} />
-        <img src={assets.twitter_icon} alt="" width={35} />
-        <img src={assets.instagram_icon} alt="" width={35} />
+        <a
+          href="https://x.com/t_jaiwanth"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={assets.twitter_icon} alt="Twitter" width={35} />
+        </a>
+        <a
+          href="https://www.instagram.com/jaiwanth_tatuskar/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={assets.instagram_icon} alt="Instagram" width={35} />
+        </a>
       </div>
     </div>
   );
