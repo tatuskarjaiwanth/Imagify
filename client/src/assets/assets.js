@@ -105,7 +105,7 @@ export const testimonialsData = [
     name: "Anushree",
     role: "Freelance Illustrator",
     stars: 5,
-    text: `This tool is like having a creative assistant. I just type in my idea and it gives me a great starting point for my artwork. Highly recommended!`,
+    text: `This tool is like having a creative assistant. I just type in my idea and it gives me a great starting point for my artwork. Highly recommended and must use`,
   },
 ];
 
